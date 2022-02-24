@@ -1,0 +1,1184 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Musick, or, A parley of instruments the first part.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1676</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A51658</idno>
+            <idno type="STC">Wing M3157A</idno>
+            <idno type="STC">ESTC R3929</idno>
+            <idno type="EEBO-CITATION">12246400</idno>
+            <idno type="OCLC">ocm 12246400</idno>
+            <idno type="VID">56951</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A51658)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 56951)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 872:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Musick, or, A parley of instruments the first part.</title>
+               </titleStmt>
+               <extent>[2], 14 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1676.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+                  <note>On t.p.: "Licensed, Roger L'estrange, Octob. 30, 1676."</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Pageants --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-12</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-12</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:56951:1" rendition="simple:additions"/>
+            <p>MUSICK: OR A PARLEY OF Inſtruments.</p>
+            <p>
+               <hi>The First Part.</hi>
+            </p>
+            <floatingText type="license" xml:lang="eng">
+               <body>
+                  <p>Licenſed,</p>
+                  <closer>
+                     <signed>Roger L'estrange.</signed>
+                     <dateline>
+                        <date>
+                           <hi>Octob.</hi> 30. 1676.</date>
+                     </dateline>
+                  </closer>
+               </body>
+            </floatingText>
+            <p>
+               <hi>London,</hi> Printed in the Year 16<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>6.</p>
+            <pb facs="tcp:56951:2"/>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <div n="1" type="act">
+               <pb n="1" facs="tcp:56951:2"/>
+               <head>The First Entertainment.</head>
+               <argument>
+                  <p>A full Conſort of Inſtrumental Muſick: After that a Dialogue of three Voices, <hi>Alexis, Stre<g ref="char:EOLhyphen"/>phon, Corydon,</hi> with aſſiſtant Voices.</p>
+               </argument>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>WHat Harmony alarms my Ears?</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>It is the Muſick of the Spheres.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>Oh let me, let me dye,</l>
+                  <l>And my tranſported Spirits fly</l>
+                  <l>To yonder ecchoing Sky,</l>
+                  <l>Where Love with Muſick keeps eternal Harmony.</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>Nay <hi>Strephon,</hi> ſtay,</l>
+                  <l>With mortal Ears</l>
+                  <l>Beneath the Spheres</l>
+                  <l>You may partake, and hear them Play.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>Do then the Gods ſuch joys to Mortals lend?</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>The God of Muſick, Goddeſs of the Arts,</l>
+                  <l>Such joy imparts,</l>
+                  <l>And in a Chorus often do deſcend.</l>
+               </sp>
+               <sp>
+                  <speaker>Chorus.</speaker>
+                  <l>And in a Chorus,</l>
+                  <l>And in a Chorus often do deſcend.</l>
+               </sp>
+               <floatingText xml:lang="eng" type="song">
+                  <body>
+                     <head>Song by <hi>Pallas.</hi>
+                     </head>
+                     <l>
+                        <hi>From Manſions of Joy, and from Regions of Bliſs,</hi>
+                     </l>
+                     <l>
+                        <hi>Where Eternity flows with ſuch meaſures as this,</hi>
+                     </l>
+                     <l>
+                        <hi>Invok'd by your Muſick the AEtherial Spheres,</hi>
+                     </l>
+                     <l>
+                        <hi>Here</hi> Pallas <hi>deſcends in a Chariot of Ayres.</hi>
+                     </l>
+                     <l>
+                        <hi>In ſuch a ſweet Conſort our Empire does move,</hi>
+                     </l>
+                     <l>
+                        <hi>While we joyn in a Chorus of Muſick and Love.</hi>
+                     </l>
+                  </body>
+               </floatingText>
+               <pb n="2" facs="tcp:56951:3"/>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>May not Mortals then aſpire!</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>By the ſame Scale</l>
+                  <l>They Heav'n aſſail,</l>
+                  <l>And joyn in the Coeleſtial Quire.</l>
+               </sp>
+               <sp>
+                  <speaker>Pallas.</speaker>
+                  <lg>
+                     <l>
+                        <hi>On Muſicks ſoft Scale you to Heav'n do aſpire,</hi>
+                     </l>
+                     <l>
+                        <hi>And call from his Throne great</hi> Jove <hi>to admire;</hi>
+                     </l>
+                     <l>
+                        <hi>Whilſt all the bright Goddeſſes joyn in a Ring,</hi>
+                     </l>
+                     <l>
+                        <hi>To make up a Conſort, and help you to Sing:</hi>
+                     </l>
+                     <l>
+                        <hi>In ſuch a ſweet Conſort our Empire does move,</hi>
+                     </l>
+                     <l>
+                        <hi>While we joyn in a Chorus of Muſick and Love.</hi>
+                     </l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>Do theſe Coeleſtial Joys on Muſick tend?</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>Bright <hi>Pallas</hi> to confirm it does deſcend.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>E're rais'd to Immortality!</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>The Airy Cherubin, the Soul is free:</l>
+                  <l>On Love and Muſicks wings,</l>
+               </sp>
+               <sp>
+                  <speaker>Chorus.</speaker>
+                  <l>Aloft, aloft ſhe flying ſings</l>
+                  <l>The Glories of Eternity.</l>
+               </sp>
+               <sp>
+                  <speaker>Pallas.</speaker>
+                  <lg>
+                     <l>
+                        <hi>By Love and by Muſick our Kingdom does ſtand;</hi>
+                     </l>
+                     <l>
+                        <hi>By Love and by Muſick we rule and command;</hi>
+                     </l>
+                     <l>
+                        <hi>While in Love we deſcend, you by Muſick aſpire,</hi>
+                     </l>
+                     <l>
+                        <hi>Till our Souls do unite in a general Quire.</hi>
+                     </l>
+                     <l>
+                        <hi>In ſuch a ſweet Conſort our Empire does move,</hi>
+                     </l>
+                     <l>
+                        <hi>While we joyn in a Chorus of Muſick and Love.</hi>
+                     </l>
+                  </lg>
+               </sp>
+               <stage>
+                  <hi>Pallas</hi> aſcends.</stage>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>Oh ſtay, bright Goddeſs, ſtay;</l>
+                  <l>We'l ever Sing, and ever Play,</l>
+                  <l>If you vouchſafe to agree</l>
+                  <l>To make one general Harmonie.</l>
+               </sp>
+               <div type="part">
+                  <pb n="3" facs="tcp:56951:3"/>
+                  <head>A Conſort of Instruments.</head>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>
+                        <hi>Alexis,</hi> in this Univerſal Choir,</l>
+                     <l>Where mighty <hi>Phoebus</hi> does with <hi>Orpheus</hi> meet,</l>
+                     <l>With all his Votaries at his feet,</l>
+                     <l>How many various ſorts there be</l>
+                     <l>Of Inſtruments in this joynt Harmonie,</l>
+                     <l>You in amazement leave me to admire.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>Reckon the Creatures in their kind,</l>
+                     <l>None can their endleſs number find.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>And yet theſe too</l>
+                     <l>May be reduc'd to few.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>Or Men, or Trees, or Birds, or Beaſts; nay all</l>
+                     <l>That motion have, or live,</l>
+                     <l>Are Vegitives, or Senſitive,</l>
+                     <l>Or higheſt Rational,</l>
+                     <l>Of Muſick thus three ſorts we do allow.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>Such as by Breath or Wind inſpir'd do ſpeak,</l>
+                     <l>Do into joyfull numbers break.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>But quickn'd by the active Bow,</l>
+                     <l>In ſweeter meaſures flow.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Or by the Fingers ſmoother touch, or Quill,</l>
+                     <l>Their gentler Notes diſtill.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Chorus.</speaker>
+                     <l>And all uniting will partake,</l>
+                     <l>And one profound Pair-Royal make.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>This Trinity of Conſorts I admire.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>And I, dear <hi>Strephon,</hi> love.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>But are they ſo united in their Quire,</l>
+                     <l>That for the Teſt</l>
+                     <l>Who does the beſt,</l>
+                     <l>We may not yet more fully hear them move?</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>The next Debatement ſhall apart their ſeveral Vertues prove.</l>
+                  </sp>
+                  <pb n="4" facs="tcp:56951:4"/>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>The Harp, the Harpſicons, Guittar and Lute,</l>
+                     <l>Is my pretence.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>Mine the Wind-Muſicks Excellence.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>And for the charming Bow I'le hold diſpute.</l>
+                     <l>
+                        <hi>Strephon,</hi> with you we'l firſt engage.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>And with the Conqueror we'l the Combat wage.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Chorus.</speaker>
+                     <l>
+                        <hi>We'l draw on each ſide,</hi>
+                     </l>
+                     <l>
+                        <hi>And our Forces divide,</hi>
+                     </l>
+                     <l>
+                        <hi>To merit, to merit the praiſe;</hi>
+                     </l>
+                     <l>
+                        <hi>And he that does best,</hi>
+                     </l>
+                     <l>
+                        <hi>Shall be own'd by the rest,</hi>
+                     </l>
+                     <l>
+                        <hi>With Laurel, with Laurel and Bays.</hi>
+                     </l>
+                  </sp>
+               </div>
+            </div>
+            <div n="2" type="act">
+               <head>The Second Entertainment.</head>
+               <argument>
+                  <p>A Conſort of Lutes, Theorboes, Guittars, Harp<g ref="char:EOLhyphen"/>ſicons, Violins, Viols, and all other Inſtru<g ref="char:EOLhyphen"/>ments ſtruck with the Finger or Bow. A Dia<g ref="char:EOLhyphen"/>logue of two, <hi>Alexis, Strephon,</hi> with aſſiſtant Voices. <hi>Alexis</hi> pleading for the Excellency of the Viols, Violins, <hi>&amp;c. Strephon</hi> for the Theorboes, Lutes, and all other Inſtruments of that kind<g ref="char:punc">▪</g>
+                  </p>
+               </argument>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>
+                     <hi>STrephon,</hi> while we with you incorporate,</l>
+                  <l>We labour in a mortal ſtate;</l>
+                  <l>Like Soul and Body we unite,</l>
+                  <l>Your groſſer parts retard our glorious flight:</l>
+                  <l>But from your groſſer Numbers free,</l>
+                  <l>We, like the Soul, put on a kind of Immortalitie.</l>
+               </sp>
+               <pb n="5" facs="tcp:56951:4"/>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>In us alone</l>
+                  <l>The whole Compoſure of the Univerſe is ſhewn.</l>
+                  <l>In Counterpoint that comprehends each part</l>
+                  <l>Of our myſterious Art</l>
+                  <l>Which in us dwell,</l>
+                  <l>We do excell,</l>
+                  <l>Whilſt every part an Element</l>
+                  <l>Does repreſent</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>To weighty Earth what part can you compare?</l>
+                  <l>We are all Air.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>The Baſs as the foundation of the frame:</l>
+                  <l>The Tenor does the Watry Orb proclaim:</l>
+                  <l>The Mean, to Air; and to the Treble, Fire.</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>But we the Compoſition do inſpire</l>
+                  <l>With active Breath, and true <hi>Promethean</hi> flame,</l>
+                  <l>Without whoſe aid</l>
+                  <l>Your meaſures fade,</l>
+                  <l>Wanting a Spirit to inform the Frame.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>The fire which he ſtole,</l>
+                  <l>Was but the Harmony oth' Soul;</l>
+                  <l>Which we with well-proportion'd parts diſpos'd</l>
+                  <l>For a Reception have ith' parts infus'd, or elſe inclos'd.</l>
+                  <l>Thus with intrinſick fire</l>
+                  <l>The Treble, we our ſelves inſpire;</l>
+                  <l>We animate the Heart, inform the Ear,</l>
+                  <l>And every Finger's a <hi>Prometheus</hi> here.</l>
+               </sp>
+               <sp>
+                  <speaker>Alexis.</speaker>
+                  <l>This Virtue beſt is ſhewn,</l>
+                  <l>When you diſplay your parts alone.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>You powerfull Minſtrels, you whoſe charms do flow</l>
+                  <l>From Fingers skilfull touch, in ſpight of Bow,</l>
+                  <l>Now ſhew your power Divine,</l>
+                  <l>And in one Conſort all your Virtue joyn.</l>
+               </sp>
+               <div type="part">
+                  <pb n="6" facs="tcp:56951:5"/>
+                  <head>A Conſort of Theorboes, Lutes, Harps, Harp<g ref="char:EOLhyphen"/>ſicons, Guittars, Citterns, <hi>&amp;c.</hi>
+                  </head>
+                  <floatingText xml:lang="eng" type="song">
+                     <body>
+                        <head>SONG.</head>
+                        <lg>
+                           <l>
+                              <hi>If Muſick with all its Allurements can move,</hi>
+                           </l>
+                           <l>
+                              <hi>We in a full Conſort its Virtues can prove;</hi>
+                           </l>
+                           <l>
+                              <hi>Whilſt others in Singles but faintly do ſqueak,</hi>
+                           </l>
+                           <l>
+                              <hi>We through a Concordance of Compounds do break.</hi>
+                           </l>
+                        </lg>
+                        <lg>
+                           <l>
+                              <hi>Each in a full Chorus ſupplies every part,</hi>
+                           </l>
+                           <l>
+                              <hi>And like to Loves Monarch does pierce through the heart.</hi>
+                           </l>
+                           <l>
+                              <hi>Through Tenor and Baſs to Treble we riſe,</hi>
+                           </l>
+                           <l>
+                              <hi>And make the Pair-Royal but one in the Skies.</hi>
+                           </l>
+                        </lg>
+                        <lg>
+                           <l>
+                              <hi>Let others in ſimple Debates diſagree,</hi>
+                           </l>
+                           <l>
+                              <hi>While we make a Synod of joynt Harmonie;</hi>
+                           </l>
+                           <l>
+                              <hi>And whilſt our Aſſembly the Audience does awe,</hi>
+                           </l>
+                           <l>
+                              <hi>Wee'l give Rules to the World, and to Muſick give Law.</hi>
+                           </l>
+                        </lg>
+                     </body>
+                  </floatingText>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Oh Divine!</l>
+                     <l>Hark! hark! how ſweet</l>
+                     <l>The lofty Numbers meet,</l>
+                     <l>As if Heaven did deſign</l>
+                     <l>No other uſe of hand or ſenſe,</l>
+                     <l>In all its greateſt, greateſt Excellence,</l>
+                  </sp>
+                  <sp>
+                     <speaker>Chorus.</speaker>
+                     <l>In all its greateſt, greateſt Excellence.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>Move on all you that owe</l>
+                     <l>Your Beings to the quickning Bow;</l>
+                     <l>Your Force together call,</l>
+                     <l>And in one Conſort all,</l>
+                     <l>The aemulating Diſcord overthrow.</l>
+                  </sp>
+               </div>
+               <div type="part">
+                  <pb n="7" facs="tcp:56951:5"/>
+                  <head>A Conſort of Viols, Violins, and all ſorts of Bow'd-Inſtruments.</head>
+                  <floatingText xml:lang="eng" type="song">
+                     <body>
+                        <head>SONG.</head>
+                        <lg>
+                           <l>
+                              <hi>Now merrily, merrily Boys,</hi>
+                           </l>
+                           <l>
+                              <hi>Add ſpirit to every String,</hi>
+                           </l>
+                           <l>
+                              <hi>A ſingle Voice</hi>
+                           </l>
+                           <l>
+                              <hi>Yields a better noiſe</hi>
+                           </l>
+                           <l>
+                              <hi>Then a clamorous Goſſipping.</hi>
+                           </l>
+                           <l>
+                              <hi>Their Conſort is dull to the Croud,</hi>
+                           </l>
+                           <l>
+                              <hi>While our ſingle Notes agree,</hi>
+                           </l>
+                           <l>
+                              <hi>A</hi> Billings-gate <hi>noiſe is far more loud,</hi>
+                           </l>
+                           <l>
+                              <hi>But not half ſo good Harmony.</hi>
+                           </l>
+                        </lg>
+                        <lg>
+                           <l>
+                              <hi>Let them boaſt of their various Parts,</hi>
+                           </l>
+                           <l>
+                              <hi>That jumble like Cramboes in Rhime,</hi>
+                           </l>
+                           <l>
+                              <hi>And cry up their Arts,</hi>
+                           </l>
+                           <l>
+                              <hi>If we win their hearts,</hi>
+                           </l>
+                           <l>
+                              <hi>Wee'l Rival them all in time.</hi>
+                           </l>
+                           <l>
+                              <hi>The Women for us give their votes,</hi>
+                           </l>
+                           <l>
+                              <hi>Then merrily let us play,</hi>
+                           </l>
+                           <l>
+                              <hi>With Treble and Baſs let's joyn our Notes,</hi>
+                           </l>
+                           <l>
+                              <hi>We're Conſort as well as they.</hi>
+                           </l>
+                        </lg>
+                     </body>
+                  </floatingText>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>Are you convinc'd by this tranſporting Air?</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>'Tis fine; and yet, <hi>Alexis,</hi> not ſo rare,</l>
+                     <l>Nor dare you yet with us compare.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>Where lies your chiefeſt Excellence?</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>With every Part in pleaſing every Senſe.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>But we thoſe Senſes do inſpire</l>
+                     <l>With ſprightly Air, and active Fire.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>We, we command <hi>Apollo</hi>'s Lyre.</l>
+                  </sp>
+                  <pb n="8" facs="tcp:56951:6"/>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>We Spirit yield to Muſicks deepeſt ſounds.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>We taught you firſt the grounds.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>But we a lofty ſtructure did from that foundation riſe,</l>
+                     <l>And Airy Pyramids whoſe tops aſpiring pierce the Skies.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Since we cannot agree while our Notes we com<g ref="char:EOLhyphen"/>pare,</l>
+                     <l>Let's joyn in a Chorus,</l>
+                  </sp>
+                  <sp>
+                     <speaker>Alexis.</speaker>
+                     <l>Let's joyn in a Chorus</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Of melodious, of melodious Air.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Chorus.</speaker>
+                     <l>Of melodious, of melodious Air.</l>
+                  </sp>
+               </div>
+            </div>
+            <div n="3" type="act">
+               <head>The Third Entertainment.</head>
+               <argument>
+                  <p>A Symphony of Theorboes, Lutes, Harps, Harp<g ref="char:EOLhyphen"/>ſicons, Guittars, Pipes, Flutes, Flagellets, Cor<g ref="char:EOLhyphen"/>nets, Sack-butts, Hoboys, Rechords, Organs, and all ſort of Wind-Inſtruments. A Dialo<g ref="char:EOLhyphen"/>gue of two, <hi>Strephon, Corydon; Strephon</hi> main<g ref="char:EOLhyphen"/>taining the Excellency of the Lutes, Harpſi<g ref="char:EOLhyphen"/>cons, <hi>&amp;c. Corydon</hi> of the Pipes, Flagellets, and Wind. Inſtruments; with aſſiſtant Voices, and Violins.</p>
+               </argument>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>IN what bleſt Region do theſe Conſorts move?</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>They are begot below, but rule above.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>From whence do they ariſe?</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>From Air and Earth</l>
+                  <l>They take their Birth,</l>
+                  <l>And keep their Center in the Skies.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>How do they rule, how are they nouriſht there?</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>In the Harmomous Sphere:</l>
+                  <l>Muſick Camelion-like does fare,</l>
+                  <l>By Fancy its begot, and lives by Air.</l>
+               </sp>
+               <pb n="9" facs="tcp:56951:6"/>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>But whence this mixt variety of Sounds?</l>
+                  <l>And yet the different Notes in Numbers ſoft,</l>
+                  <l>Unite in one and fly aloft, aloft,</l>
+                  <l>As if they own'd no Meaſure, knew no Bounds.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>The Heathens never worſhipt more</l>
+                  <l>Fam'd Gods in former time,</l>
+                  <l>Than in this Conſort we adore</l>
+                  <l>Divinities ſublime;</l>
+                  <l>To various Notes each Inſtrument is free.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>And every Note invokes a Deitie.</l>
+               </sp>
+               <stage>Here in a Symphony of ſoft Muſick <hi>Pallas</hi> deſcends as from above.</stage>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>In yonder Sky what Star appears?</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>
+                     <hi>Pallas</hi> deſcending from the Spheres,</l>
+                  <l>And with a Train of Starry Nymphs to crown</l>
+                  <l>Our mutual Harmony comes ſinging down.</l>
+               </sp>
+               <floatingText xml:lang="eng" type="song">
+                  <body>
+                     <head>Song by <hi>Pallas.</hi>
+                     </head>
+                     <lg>
+                        <l>
+                           <hi>Muſick, the bounteous gift of Heaven,</hi>
+                        </l>
+                        <l>
+                           <hi>Was to the world a Preſent given,</hi>
+                        </l>
+                        <l>
+                           <hi>Whilſt</hi> Apollo <hi>and I</hi>
+                        </l>
+                        <l>
+                           <hi>Do command in the Skie,</hi>
+                        </l>
+                        <l>
+                           <hi>To keep the ſweet Compoſure even.</hi>
+                        </l>
+                     </lg>
+                     <sp>
+                        <speaker>Chorus.</speaker>
+                        <l>
+                           <hi>Natures whole frame did from Sympathy flow,</hi>
+                        </l>
+                        <l>
+                           <hi>From hence ſhe took motion, and hence ſhe took Law.</hi>
+                        </l>
+                     </sp>
+                     <lg>
+                        <l>
+                           <hi>Hence</hi> Orpheus <hi>with Harmonious Lyre,</hi>
+                        </l>
+                        <l>
+                           <hi>Brought Trees to dance, Beaſts to admire;</hi>
+                        </l>
+                        <l>
+                           <hi>While witty</hi> Amphion,</l>
+                        <l>
+                           <hi>Whom</hi> Thebes <hi>did relie on,</hi>
+                        </l>
+                        <l>
+                           <hi>By Muſick rais'd their City higher:</hi>
+                        </l>
+                     </lg>
+                     <sp>
+                        <speaker>Chorus.</speaker>
+                        <l>
+                           <hi>The Harmonious Scepter o're Nations did ſway,</hi>
+                        </l>
+                        <l>
+                           <hi>Made Savages tame, and the Satyrs obey.</hi>
+                        </l>
+                     </sp>
+                     <pb n="10" facs="tcp:56951:7"/>
+                     <lg>
+                        <l>
+                           <hi>It moves to Courage, yields Delight,</hi>
+                        </l>
+                        <l>
+                           <hi>And ſtill to Virtue does invite;</hi>
+                        </l>
+                        <l>
+                           <hi>Then let us all follow</hi>
+                        </l>
+                        <l>
+                           <hi>Our Maſter</hi> Apollo,</l>
+                        <l>
+                           <hi>Who made the World grow civil by't:</hi>
+                        </l>
+                        <l>
+                           <hi>It inſpireth the mind, and delighteth the Ears,</hi>
+                        </l>
+                        <l>
+                           <hi>And flies to its Center above in the Spheres.</hi>
+                        </l>
+                     </lg>
+                  </body>
+               </floatingText>
+               <stage>
+                  <hi>[Pallas</hi> aſcends; ſoft Muſick.]</stage>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>
+                     <hi>Strephon,</hi> in this mixt Symphony I find</l>
+                  <l>Something more ſweet, more charming in our wind,</l>
+                  <l>Then all your vaunted Parts of warbling Air.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>And yet with <hi>Corydon</hi> we dare compare.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>This task we muſt perform alone;</l>
+                  <l>Let us divide,</l>
+                  <l>And draw our Forces on each ſide,</l>
+                  <l>Your Conſort does diſturb our Uniſons.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>We are a Legion in one,</l>
+                  <l>And mighty <hi>Phoebus</hi> is our Generall.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>Great <hi>Pan</hi> did our Authority inſtall:</l>
+                  <l>The Pipes and Tabrets into Squadrons drew;</l>
+                  <l>On Martial Troops we did attend,</l>
+                  <l>And Courage oft did lend,</l>
+                  <l>Before whoſe Sound whole Armies, Armies flew.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>You boaſt the Terrour of your Sound,</l>
+                  <l>Yet our incluſive Parts are more profound;</l>
+                  <l>In a pacifick ſtrain</l>
+                  <l>We on victorious Princes wait</l>
+                  <l>In their Triumphal, their Triumphal State.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>While we the Victory do gain,</l>
+                  <l>And do the Combats heat maintain.</l>
+               </sp>
+               <sp>
+                  <speaker>Strephon.</speaker>
+                  <l>We late a mighty Monarch did ſubdue.</l>
+               </sp>
+               <sp>
+                  <speaker>Corydon.</speaker>
+                  <l>And we the Conqueror Conqueſt will purſue.</l>
+               </sp>
+               <div type="part">
+                  <pb n="11" facs="tcp:56951:7"/>
+                  <head>Conſort of Lutes, Theorboes, Harpſicals, <hi>&amp;c.</hi>
+                  </head>
+                  <floatingText xml:lang="eng" type="song">
+                     <body>
+                        <head>SONG.</head>
+                        <lg>
+                           <l>
+                              <hi>Now try for the Conqueſt the chiefeſt of Arts,</hi>
+                           </l>
+                           <l>
+                              <hi>And let every Finger a Harmony prove:</hi>
+                           </l>
+                           <l>
+                              <hi>In a triple of Parts we cheriſh ſad hearts,</hi>
+                           </l>
+                           <l>
+                              <hi>And in a Pair-Royal of Deſcants we move.</hi>
+                           </l>
+                        </lg>
+                        <sp>
+                           <speaker>Chorus.</speaker>
+                           <l>
+                              <hi>With Treble we raiſe</hi>
+                           </l>
+                           <l>
+                              <hi>Mean, Tenor, and Baſe,</hi>
+                           </l>
+                           <l>
+                              <hi>And keep a due diſtance of meaſure and ſpace.</hi>
+                           </l>
+                        </sp>
+                        <lg>
+                           <l>
+                              <hi>In a Broadſide of Conſorts that reaches the Spheres,</hi>
+                           </l>
+                           <l>
+                              <hi>Which every Minſtrel diſchargeth alone,</hi>
+                           </l>
+                           <l>
+                              <hi>We pierce through the Fancy, and tickle the Ears,</hi>
+                           </l>
+                           <l>
+                              <hi>And three to their one but we board them anon.</hi>
+                           </l>
+                           <l>
+                              <hi>With Treble we raiſe,</hi> &amp;c.</l>
+                        </lg>
+                        <lg>
+                           <l>
+                              <hi>Then ſtand to your Tackling, and handle your Cords,</hi>
+                           </l>
+                           <l>
+                              <hi>Let the Pipes and Recorders grow hoarſe in the throat;</hi>
+                           </l>
+                           <l>
+                              <hi>They are but our Tenants, while we rule like Lords,</hi>
+                           </l>
+                           <l>
+                              <hi>And make all the Rabble agree in a Note.</hi>
+                           </l>
+                           <l>
+                              <hi>With Treble we raiſe</hi>
+                           </l>
+                           <l>
+                              <hi>Mean, Tenor, and Baſe,</hi>
+                           </l>
+                           <l>
+                              <hi>And keep a due diſtance of meaſure and ſpace.</hi>
+                           </l>
+                        </lg>
+                     </body>
+                  </floatingText>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Theſe are our Creatures all that do obey</l>
+                     <l>Th' immediate Fingers motion, or the Quill.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>And yet in this vaſt Sea</l>
+                     <l>Of Muſicks boundleſs Law,</l>
+                     <l>Where Conſorts like whole Rivers flow,</l>
+                     <l>In clearer Streams our ſingle Notes diſtill.</l>
+                  </sp>
+                  <pb n="12" facs="tcp:56951:8"/>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Conſort, the Soul of Muſick and of play,</l>
+                     <l>The Depth and Ground of our myſterious Arts,</l>
+                     <l>Flows through our veins whilſt each of us does ſway,</l>
+                     <l>In a Triumvirat of breathing Parts.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>Your various Parts, like three great Tides that meet</l>
+                     <l>Ith' Ocean, roar, and ſerve to make a noiſe;</l>
+                     <l>While we in gentle Breaſes greet,</l>
+                     <l>And flow in one ſweet Current of ſoft Joys.</l>
+                     <l>Your Single parts by us embrac'd,</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Like Rivulets in the vaſt Ocean,</l>
+                     <l>Loſe both their reliſh and their taſte;</l>
+                     <l>We are a Harmony in one.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>As from the Spring and Fountain-head we ſhou'd</l>
+                     <l>Freſh Currents ſtill diſpence,</l>
+                     <l>And if we loſe our Excellence,</l>
+                     <l>'Tis cauſe we mingle with the Floud:</l>
+                     <l>Or if you labour to outdo,</l>
+                     <l>Becauſe a Conſort full you ſhare;</l>
+                     <l>Wee'l joyn our Pipes, and then we are</l>
+                     <l>A Harmony as well as you.</l>
+                  </sp>
+               </div>
+               <div type="part">
+                  <head>A Symphony of Wind-Inſtruments.</head>
+                  <floatingText xml:lang="eng" type="song">
+                     <body>
+                        <lg>
+                           <head>Song to the ſame.</head>
+                           <l>
+                              <hi>Let</hi> Strephon <hi>boast loud,</hi>
+                           </l>
+                           <l>
+                              <hi>With Theorboe and Croud,</hi>
+                           </l>
+                           <l>
+                              <hi>Whilſt we do prevail</hi>
+                           </l>
+                           <l>
+                              <hi>In a merry brisk Gale,</hi>
+                           </l>
+                           <l>
+                              <hi>And conquer by force of our Sallies;</hi>
+                           </l>
+                           <l>
+                              <hi>Till it ſpread like the Air,</hi>
+                           </l>
+                           <l>
+                              <hi>Of which it does ſhare,</hi>
+                           </l>
+                           <l>
+                              <hi>And fills all the Groves and the Vallies.</hi>
+                           </l>
+                        </lg>
+                        <pb n="13" facs="tcp:56951:8"/>
+                        <lg>
+                           <l>
+                              <hi>Then from the low Vail</hi>
+                           </l>
+                           <l>
+                              <hi>With a following gale</hi>
+                           </l>
+                           <l>
+                              <hi>Wee'l hollow and riſe</hi>
+                           </l>
+                           <l>
+                              <hi>Through the ecchoing Skies,</hi>
+                           </l>
+                           <l>
+                              <hi>And ſtill we mount higher and higher;</hi>
+                           </l>
+                           <l>
+                              <hi>While thoſe by the way</hi>
+                           </l>
+                           <l>
+                              <hi>Do faintly decay,</hi>
+                           </l>
+                           <l>
+                              <hi>And weaker, and weaker expire.</hi>
+                           </l>
+                        </lg>
+                        <lg>
+                           <l>
+                              <hi>The Theorboes and Lutes</hi>
+                           </l>
+                           <l>
+                              <hi>To the Pipes are but Mutes;</hi>
+                           </l>
+                           <l>
+                              <hi>They are Creatures, and live</hi>
+                           </l>
+                           <l>
+                              <hi>By the Breath which we give,</hi>
+                           </l>
+                           <l>
+                              <hi>And we by that Breath were inſpir'd;</hi>
+                           </l>
+                           <l>
+                              <hi>Whilſt they are outworn</hi>
+                           </l>
+                           <l>
+                              <hi>As ſoon as they're born,</hi>
+                           </l>
+                           <l>
+                              <hi>Like Orphans untimely retir'd.</hi>
+                           </l>
+                        </lg>
+                     </body>
+                  </floatingText>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>In this abſtracted Symphony</l>
+                     <l>Of well-digeſted Air,</l>
+                     <l>There is an inward Harmony,</l>
+                     <l>Which your mixt Diſcord did impair.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Yet from our various Notes proceeds</l>
+                     <l>A more Harmonious ſound.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>As Showers which the Tempeſt breeds,</l>
+                     <l>Lie ſcatter'd on the ground,</l>
+                     <l>Or into ſwelling Vapours riſe,</l>
+                     <l>While like bright Meteors we approach the Skies.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>
+                        <hi>Pallas</hi> her Lute, and <hi>Orpheus</hi> his Lyre,</l>
+                     <l>Borrow'd from us to make a Quire.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>And both do on our wings aſpire:</l>
+                     <l>In ſuch a Chariot mighty <hi>Jove</hi>
+                     </l>
+                     <l>His univerſal Triumph firſt deſign'd,</l>
+                     <l>When on the Cherubins he mov'd,</l>
+                     <l>And flew upon the wings, the wings oth' Wind.</l>
+                  </sp>
+                  <pb n="14" facs="tcp:56951:9" rendition="simple:additions"/>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>You boaſt the Glory of your flight,</l>
+                     <l>And yet our Parts are more profound.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Corydon.</speaker>
+                     <l>But to your ſcatter'd Parts we add a Sp'rit.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Strephon.</speaker>
+                     <l>Then let us mix and make one great Compound.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Chorus.</speaker>
+                     <lg>
+                        <l>
+                           <hi>Like Birds wee'l engender and bill in the Air,</hi>
+                        </l>
+                        <l>
+                           <hi>The Gods never envy'd ſo happy a pair.</hi>
+                        </l>
+                     </lg>
+                     <lg>
+                        <l>
+                           <hi>Then let us unite, and merrily play,</hi>
+                        </l>
+                        <l>
+                           <hi>Wee'l ſport all the Night, and wee'l ſing all the Day;</hi>
+                        </l>
+                        <l>
+                           <hi>In Conſorts of Love</hi>
+                        </l>
+                        <l>
+                           <hi>Each Couple ſhall move,</hi>
+                        </l>
+                        <l>
+                           <hi>Then the new-marry'd Bride more chearfull and gay.</hi>
+                        </l>
+                        <l>
+                           <hi>Like Birds wee'l engender,</hi> &amp;c.</l>
+                     </lg>
+                     <lg>
+                        <l>
+                           <hi>In a various Chorus of Muſical Lays,</hi>
+                        </l>
+                        <l>
+                           <hi>Our Fancies ſhall meet, and our Spirits embrace;</hi>
+                        </l>
+                        <l>
+                           <hi>While the Goddeſs of Love</hi>
+                        </l>
+                        <l>
+                           <hi>Our mirth ſhall approve,</hi>
+                        </l>
+                        <l>
+                           <hi>And the Nymphs in a Row our Nuptials ſhall grace.</hi>
+                        </l>
+                        <l>
+                           <hi>Like Birds wee'l engender and bill in the Air,</hi>
+                        </l>
+                        <l>
+                           <hi>The Gods never envy'd ſo happy a pair.</hi>
+                        </l>
+                     </lg>
+                  </sp>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
